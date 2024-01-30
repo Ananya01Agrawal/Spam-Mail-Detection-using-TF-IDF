@@ -40,16 +40,7 @@ The code is organized into the following sections:
    pip install pandas numpy scikit-learn
    ```
 
-3. **Run the Code:**
-   - Ensure that the `mail_data.csv` file is present in the same directory.
-   ```
-   python spam_mail_detection.py
-   ```
-
-4. **Modify Input:**
-   - You can modify the `input_your_mail` variable with your own email content for testing.
-
-5. **Review Results:**
+3. **Review Results:**
    - The code will print the accuracy on both the training and testing datasets.
    - It will also predict whether the input mail is spam or ham.
 
@@ -57,4 +48,4 @@ The code is organized into the following sections:
 - The dataset used (`mail_data.csv`) should have a 'Category' column indicating whether the mail is 'ham' or 'spam'.
 - Ensure that the necessary libraries are installed using the provided requirements file.
 
-Feel free to customize and extend this project according to your needs!
+
